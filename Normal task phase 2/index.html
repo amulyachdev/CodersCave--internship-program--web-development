@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compayible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amulya Ch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!--Nav BAR-->
+    <nav id="desktop-nav">
+        <div class="logo">Amulya Ch</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--hamburger-nav-->
+    <nav id="hamburger-nav">
+        <div class="logo">Amulya Ch</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+</nav>
+
+  <!--Sections-->
+  <section id="home">
+    <div class="section__pic-container">
+        <img src="./assests/profile-pic-1.png" alt="profilepic">
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Amulya</h1>
+        <h4 class="section__text__jobtitle">Frontend Developer</h4>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assests/resume.pdf')">Download Resume</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+            <img src="./assests/linkedin.png" alt="LinkedIn profile" class="icon" onclick="window.open('https://www.linkedin.com/in/chamulya/')">
+            <img src="./assests/github.png" alt="Github profile" class="icon" onclick="window.open('https://github.com/Ch-Amulya')">
+        </div>
+    </div>
+  </section>
+  <!--About section-->
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <img 
+            src="./assests/profile-pic-2.png" alt="profilepic"
+            class="about-pic">
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                  <img 
+                  src="./assests/education.png" 
+                  alt="education icon"
+                  class="icon">
+                  <h3>Education</h3>
+                  <p></p>Bachelor of Technology <br> Electronics and Communication Engineering</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>I am a passionate and skilled Software Developer specializing in Web development with a strong dedication to quality and attention to detail. I am constantly seeking new challenges and opportunities to improve my craft. I stay updated with the latest industry trends and best practices by attending conferences, taking online courses, and experimenting with new technologies. I build functional, beautiful and user-friendly designs. My commitment to innovation ensures that clients receive cutting-edge and effective solutions.</p>
+            </div>
+        </div>
+    </div>
+    <img src="./assests/arrow.png" 
+    alt="Scroll down" class="icon arrow"
+    onclick="location.href='./#skills'">
+  </section>
+  <section id="skills">
+    <h1 class="title">Skills</h1>
+    <div class="skills-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="skills-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assests/html.png" alt="HTML icon" class="icon">
+                        <div><h3>HTML</h3></div>
+                    </article>
+                    <article>
+                        <img src="./assests/css-3.png" alt="CSS icon" class="icon">
+                        <div><h3>CSS</h3></div>
+                    </article>
+                    <article>
+                        <img src="./assests/js.png" alt="JS icon" class="icon">
+                        <div><h3>JavaScript</h3></div>
+                    </article>
+                    <article>
+                        <img src="./assests/bootstrap.png" alt="bootstrap icon" class="icon">
+                        <div><h3>Bootstrap</h3></div>
+                    </article>
+                    <article>
+                        <img src="./assests/library.png" alt="react icon" class="icon">
+                        <div><h3>React.js</h3></div>
+                    </article>
+                    <article>
+                        <img src="./assests/figma.png" alt="Figma icon" class="icon">
+                        <div><h3>Figma</h3></div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="skills-sub-title">Soft SKills</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assests/chat.png" class="icon">
+                        <div><h3>Effective Communication</h3>
+                    </article>
+                    <article>
+                        <img src="./assests/multiple-users-silhouette.png" class="icon">
+                        <div><h3>Smart Collaboration</h3></div>
+                    </article>
+                    <article>
+                        <img src="./assests/two-arrow.png" class="icon">
+                        <div><h3>Easy Adaptability</h3></div>
+                    </article>
+                    <article>
+                        <img src="./assests/clock.png" class="icon">
+                        <div><h3>Time Management</h3></div>
+                    </article>
+                    <article>
+                        <img src="./assests/extension.png" class="icon">
+                        <div><h3>Problem Solving</h3></div>
+                    </article>
+                    <article>
+                        <img src="./assests/lightbulb.png" class="icon">
+                        <div><h3>Creativity & Innovations</h3></div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="./assests/arrow.png" 
+    alt="Scroll down" class="icon arrow"
+    onclick="location.href='./#projects'">
+  </section>
+  <!--Projects Section-->
+  <section id="Projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="skills-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assests/project-1.png" alt="project 1" class="project-img">
+            </div>
+            <h2 class="skills-sub-title project-title">Online Code Editor</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Ch-Amulya/CodersCave--internship-program--web-development/tree/main/Golden%20Task_phase1')">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Ch-Amulya/CodersCave--internship-program--web-development/tree/main/Golden%20Task_phase1')">Live Demo</button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assests/project-2.png" alt="project 2" class="project-img">
+            </div>
+            <h2 class="skills-sub-title project-title">EdTech Website</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Ch-Amulya/CodersCave--internship-program--web-development/tree/main/Normal%20task_phase%201')">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Ch-Amulya/CodersCave--internship-program--web-development/tree/main/Normal%20task_phase%201')">Live Demo</button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assests/project-3.png" alt="project 1" class="project-img">
+            </div>
+            <h2 class="skills-sub-title project-title">Sushiman</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Ch-Amulya/Sushiman.github.io')">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/Ch-Amulya/Sushiman.github.io')">Live Demo</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <img src="./assests/arrow.png" 
+    alt="Scroll down" class="icon arrow"
+    onclick="location.href='./#contact'">
+  </section>
+  <!--Contact section-->
+  <section id="Contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+           <img src="./assests/email.png" alt="email icon" class="icon contact-icon">
+           <p><a href="mailto:amulyach97@gmail.com">amulyach97@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assests/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/chamulya/" target="_blank">LinkedIn</a></p>
+         </div>
+    </div>
+  </section>
+  <!--<footer>
+    <p>🖤<br> Made with love by <br> Amulya</p>
+  </footer>
+-->
+    <script src="script.js"></script>
+</body>
+</html>
